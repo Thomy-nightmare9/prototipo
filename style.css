@@ -1,0 +1,42 @@
+body {
+    background-color: #161616;
+}
+
+.carousel-item{
+    max-height: 700px;
+    justify-content: center;
+}
+
+h1 {
+    color: #161616;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 30px 30px;
+}
+
+h2, h3 {
+    color: #FFFFFF;
+}
+
+.imgProductos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.colorBoton {
+    color: white;
+    background-color: #770fff;
+}
+
+.colorBoton:hover {
+    background-color: #420d88;
+    color: white;
+}
