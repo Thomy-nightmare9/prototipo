@@ -34,7 +34,7 @@ const mostrarProductos = () => {
                     <img src="${producto.img}" class="card-img-top imgProductos" alt="${producto.nombre}">
                     <div class= "card-body">
                         <h5>${producto.nombre}</h5>
-                        <p> ${producto.precio} </p>
+                        <p>$${producto.precio} </p>
                         <button class="btn colorBoton" id="boton${producto.id}" > Agregar al Carrito </button>
                     </div>
                 </div>

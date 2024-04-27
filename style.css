@@ -2,11 +2,26 @@ body {
     background-color: #161616;
 }
 
+/*Inicio*/
+.navbar-toggler{
+    color: #FFFFFF;
+}
+
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #420d88 !important;
+}
+
 .carousel-item{
     max-height: 700px;
     justify-content: center;
 }
 
+/*Nosotros*/
 h1 {
     color: #161616;
     padding: 20px;
@@ -14,10 +29,15 @@ h1 {
     border-radius: 0px 0px 30px 30px;
 }
 
-h2, h3 {
+.card-title{
+    color: #770fff;
+}
+
+h3, h4 {
     color: #FFFFFF;
 }
 
+/*Tienda*/
 .imgProductos {
     width: 150px;
     height: 150px;
@@ -32,11 +52,26 @@ h2, h3 {
 }
 
 .colorBoton {
-    color: white;
+    color: #FFFFFF;
     background-color: #770fff;
 }
 
 .colorBoton:hover {
     background-color: #420d88;
-    color: white;
+    color: #FFFFFF;
+}
+
+/*Contacto*/
+.contacto{
+    color: #FFFFFF;
+}
+
+
+/*Footer*/
+i{
+    color: #770fff;
+}
+
+.text{
+    color: #770fff;
 }
